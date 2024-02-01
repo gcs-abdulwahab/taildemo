@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this to your existing CSS styles */
+.flex-col label {
+    margin-bottom: 0.5rem;
+}
+
+/* Optionally, you can add a bit of space between the label and input */
+.flex-col input {
+    margin-top: 0.5rem;
+}
